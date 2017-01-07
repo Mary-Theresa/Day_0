@@ -1,4 +1,4 @@
- (function() {
+(function() {
 'use strict'
 var fizzBuzz = require('../Apps/fizzBuzz.js').fizzBuzz;
 
@@ -46,4 +46,4 @@ describe("Fizz Buzz tests ", function() {
     expect(fizzBuzz(101)).toEqual(101);
   });
 });  
-});
+})();
